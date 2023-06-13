@@ -1,0 +1,71 @@
+@media screen and (max-width: 500px) {
+    body {
+        width: 100vw;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text > span {
+        display: none;
+    }
+
+    .picture {
+        position: absolute;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.35;
+    }
+
+    .picture > img {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        bottom: 0;
+        position: absolute;
+    }
+
+    .menu {
+        left: -120%;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        top: 50px;
+        z-index: 10;
+        background-color: dodgerblue;
+    }
+
+    .menu > ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item {
+        padding-top: 20px;
+    }
+    .menu > ul > li > a {
+        color: white;
+        border: none;
+        font-size: 25px;
+    }
+
+    .menu-toggle > img {
+        height: 40px;
+        width: 40px;
+        right: 15px;
+        
+        opacity: 1;
+    }
+}

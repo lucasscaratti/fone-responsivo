@@ -1,0 +1,93 @@
+/* MENU */
+
+.header {
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header .logo {
+    height: 40px;
+}
+
+.menu {
+    margin-left: 50px;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu > ul > li > a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0 5px;
+    color: blue;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.menu-toggle > img {
+    height: 40px;
+    width: 40px;
+    right: 15px;
+    position: absolute;
+    opacity: 0;
+}
+
+.banner {
+    height: 150px;
+    background-color: orange;
+}
+
+.content {
+    display: flex;
+    height: calc(100vh - 240px);
+}
+
+.text > span {
+    width: 444px;
+    height: 352px;
+    opacity: 0.35;
+    font-size: 288px;
+    font-weight: bold;
+    letter-spacing: 80px;
+    text-align: center;
+    color: #dbdbdb;
+    position: absolute;
+    z-index: -1;
+    margin-top: 90px;
+}
+
+.text > h1 {
+    width: 504px;
+    height: 183px;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+    color: #488cf5;
+    margin-top: 150px;
+}
+
+.text > h2 {
+    width: 512.4px;
+    height: 90.7px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+}
+.picture > img {
+    height: 100%;
+}
+
+.footer {
+    font-size: smaller;
+    color: gray;
+}
